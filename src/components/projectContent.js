@@ -85,6 +85,7 @@ export default function ProjectContent() {
                     fontWeight={"bold"}
                     fontSize={"2xl"}
                     rightIcon={<ArrowForwardIcon />}
+                    isDisabled
                   >
                     Explore
                   </Button>

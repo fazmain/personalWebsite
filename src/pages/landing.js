@@ -21,7 +21,6 @@ export default function LandingPage() {
         <Skills />
         <ProjectHeader/>
         <ProjectContent />
-        <Blog />
         <Contact />
       </Box>
       <Footer />
