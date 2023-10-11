@@ -1,0 +1,10 @@
+.App {
+  background: rgb(255, 255, 255);
+  /* background: linear-gradient(
+    11deg,
+     rgba(241, 253, 255, 1) 0%,
+     rgba(250, 244, 255, 1) 100%
+  ); */
+  font-family: "Azeret Mono Variable", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+}
