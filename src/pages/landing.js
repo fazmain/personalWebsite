@@ -11,15 +11,20 @@ import ProjectHeader from "../components/projectHeader";
 import ProjectContent from "../components/projectContent";
 import Blog from "../components/blog";
 
+import { useBreakpointValue } from "@chakra-ui/react";
+
 export default function LandingPage() {
+  const mySize = useBreakpointValue({ base: "10%", md: "5%" });
+  const mxSize = useBreakpointValue({ base: "8%", md: "15%" });
+
   return (
     <Box>
       <Header />
-      <Box my={["10%", "10%", "5%"]} mx={["8%", "8%", "15%"]}>
+      <Box my={mySize} mx={mxSize}>
         <Hero />
         <About />
         <Skills />
-        <ProjectHeader/>
+        <ProjectHeader />
         <ProjectContent />
         <Contact />
       </Box>
