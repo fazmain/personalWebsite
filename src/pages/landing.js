@@ -13,7 +13,7 @@ import Blog from "../components/blog";
 
 export default function LandingPage() {
   return (
-    <>
+    <Box>
       <Header />
       <Box my={["10%", "10%", "5%"]} mx={["8%", "8%", "15%"]}>
         <Hero />
@@ -24,6 +24,6 @@ export default function LandingPage() {
         <Contact />
       </Box>
       <Footer />
-    </>
+    </Box>
   );
 }

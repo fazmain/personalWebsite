@@ -11,7 +11,7 @@ const project = {
   tags: ["React", "Firebase", "Chakra UI"],
   description: "Restaurant recommendations based on Natural Language queries!",
   content:
-    "Lorem ipsum les dolores lola hoga, Lorem ipsum les dolores lola hoga Lorem ipsum les dolores lola hoga Lorem ipsum les dolores lola hoga Lorem ipsum les dolores lola hoga",
+    "Lorem ipsum les dolores lola hoga, Lorem ipsum les dolores lola hoga Lorem ipsum les dolores lola hoga Lorem ipsum les dolores Lorem ipsum les dolores lola hoga, Lorem ipsum les dolores lola hoga Lorem ipsum les dolores lola hoga Lorem ipsum les dolores Lorem ipsum les dolores lola hoga, Lorem ipsum les dolores lola hoga Lorem ipsum les dolores lola hoga Lorem ipsum les dolores Lorem ipsum les dolores lola hoga, Lorem ipsum les dolores lola hoga Lorem ipsum les dolores lola hoga Lorem ipsum les dolores Lorem ipsum les dolores lola hoga, Lorem ipsum les dolores lola hoga Lorem ipsum les dolores lola hoga Lorem ipsum les dolores Lorem ipsum les dolores lola hoga, Lorem ipsum les dolores lola hoga Lorem ipsum les dolores lola hoga Lorem ipsum les dolores Lorem ipsum les dolores lola hoga, Lorem ipsum les dolores lola hoga Lorem ipsum les dolores lola hoga Lorem ipsum les dolores lola hoga Lorem ipsum les dolores lola hoga",
   bodyImages: [FeastFinder, FeastFinder, FeastFinder],
 };
 

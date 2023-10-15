@@ -58,7 +58,7 @@ const About = () => {
               fontSize={"lg"}
               fontWeight="bold"
             >
-              & more
+              React
             </Code>
             <Code
               bgColor="purple.400"
@@ -67,26 +67,17 @@ const About = () => {
               fontSize={"lg"}
               fontWeight="bold"
             >
-              &fmoreaa
+              JavaScript
             </Code>
             <Code
               bgColor="purple.400"
               textColor={"white"}
               px={3}
               fontSize={"lg"}
-              fontWeight="bold"
-            >
-              & more
-            </Code>
-            <Code
-              bgColor="purple.400"
-              textColor={"white"}
-              px={3}
-              fontSize={"lg"}
-              fontWeight="bold"
-            >
-              & more
-            </Code>
+              fontWeight="bold">
+              Python 
+              </Code>
+
           </HStack>
         </Box>
       </SimpleGrid>
