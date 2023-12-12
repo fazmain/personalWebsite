@@ -8,6 +8,7 @@ import LandingPage from "./pages/landing";
 import ProjectPage from "./pages/projects"
 import FeastFinder from "./pages/projectPages/FeastFinder"
 import AboutMe from "./pages/aboutme"
+import Myself from "./pages/myself"
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
             <Route path="/projects" element={<ProjectPage/>} />
             <Route path="/projects/FeastFinder" element={<FeastFinder />} />
             <Route path="/about" element={<AboutMe />} />
+            <Route path="/myself" element={<Myself />} />
           </Routes>
         </BrowserRouter>
       </div>
