@@ -39,7 +39,7 @@ export default function Skills() {
       </Box>
       <Box>
         <Center>
-          <SimpleGrid columns={[1, 1, 2]} spacing={"70px"} my={10}>
+          <SimpleGrid columns={[1, 1, 2]} spacing={"30px"} my={10}>
             <Card
               maxW="lg"
               p={2}
@@ -49,7 +49,7 @@ export default function Skills() {
             >
               <CardBody>
                 <Heading fontSize="2xl" pb={3} color={"purple.500"}>
-                  // Define
+                  (:?) Define
                 </Heading>
                 <Text>{texts.Define}</Text>
               </CardBody>
@@ -63,7 +63,7 @@ export default function Skills() {
             >
               <CardBody>
                 <Heading fontSize="2xl" pb={3} color={"purple.500"}>
-                  // Design
+                  [#] Design
                 </Heading>
                 <Text>{texts.Design}</Text>
               </CardBody>
@@ -77,7 +77,7 @@ export default function Skills() {
             >
               <CardBody>
                 <Heading fontSize="2xl" pb={3} color={"purple.500"}>
-                  // Develop
+                  {"</>"} Develop
                 </Heading>
                 <Text>{texts.Develop}</Text>
               </CardBody>
@@ -91,7 +91,7 @@ export default function Skills() {
             >
               <CardBody>
                 <Heading fontSize="2xl" pb={3} color={"purple.500"}>
-                  // Deploy
+                  @-> Deploy
                 </Heading>
                 <Text>{texts.Deploy}</Text>
               </CardBody>
