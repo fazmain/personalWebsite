@@ -28,7 +28,7 @@ const projects = [
     title: "FeastFinder",
     tags: ["React", "Firebase", "Chakra UI"],
     description:
-      "Restaurant recommendations based on Natural Language queries!",
+      "Restaurant search based on Natural Language queries!",
   },
   {
     image: Shiree,
