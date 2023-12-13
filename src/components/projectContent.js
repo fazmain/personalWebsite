@@ -17,10 +17,11 @@ import {
 
 import { ArrowForwardIcon } from "@chakra-ui/icons";
 
-import FeastFinder from "../assets/feast_finder.png";
+import FeastFinder from "../assets/feastfinder.png";
 import Shiree from "../assets/shiree.png";
 
 import { Link as RouterLink } from "react-router-dom";
+import { isDisabled } from "@testing-library/user-event/dist/utils";
 
 const projects = [
   {
@@ -84,22 +85,11 @@ export default function ProjectContent() {
                     fontWeight={"bold"}
                     fontSize={"2xl"}
                     rightIcon={<ArrowForwardIcon />}
-                    isDisabled
                   >
                     Explore
                   </Button>
                 </RouterLink>
               </CardFooter>
-              <Code
-                bgColor="purple.200"
-                textColor={"white"}
-                px={3}
-                fontSize={"sm"}
-                fontWeight="bold"
-                colorScheme="purple"
-              >
-                *Work in progress
-              </Code>
             </Card>
           ))}
         </SimpleGrid>
