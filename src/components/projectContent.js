@@ -78,16 +78,30 @@ export default function ProjectContent() {
                 <RouterLink
                   to={`/projects/${encodeURIComponent(project.title)}`}
                 >
-                  <Button
-                    size="lg"
-                    color="purple.500"
-                    variant={"link"}
-                    fontWeight={"bold"}
-                    fontSize={"2xl"}
-                    rightIcon={<ArrowForwardIcon />}
-                  >
-                    Explore
-                  </Button>
+                  {index === 0 ? (
+                    <Button
+                      size="lg"
+                      color="purple.500"
+                      variant={"link"}
+                      fontWeight={"bold"}
+                      fontSize={"2xl"}
+                      rightIcon={<ArrowForwardIcon />}
+                    >
+                      Explore
+                    </Button>
+                  ) : (
+                    <Button
+                      size="lg"
+                      color="purple.500"
+                      variant={"link"}
+                      fontWeight={"bold"}
+                      fontSize={"2xl"}
+                      rightIcon={<ArrowForwardIcon />}
+                      isDisabled
+                    >
+                      building in progress
+                    </Button>
+                  )}
                 </RouterLink>
               </CardFooter>
             </Card>
