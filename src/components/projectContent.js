@@ -44,7 +44,7 @@ export default function ProjectContent() {
       <Box my={1} py={10}>
         <SimpleGrid columns={[1, 1, 2]} spacing={"70px"} my={10}>
           {projects.map((project, index) => (
-            <Card key={index} maxW="lg" bg="transparent" border="1px">
+            <Card key={index} maxW="md" bg="transparent" border="1px">
               <CardBody>
                 <Image
                   src={project.image}
