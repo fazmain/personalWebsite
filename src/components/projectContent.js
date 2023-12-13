@@ -27,8 +27,7 @@ const projects = [
     image: FeastFinder,
     title: "FeastFinder",
     tags: ["React", "Firebase", "Chakra UI"],
-    description:
-      "Restaurant search based on Natural Language queries!",
+    description: "Restaurant search based on Natural Language queries!",
   },
   {
     image: Shiree,
@@ -91,6 +90,16 @@ export default function ProjectContent() {
                   </Button>
                 </RouterLink>
               </CardFooter>
+              <Code
+                bgColor="purple.200"
+                textColor={"white"}
+                px={3}
+                fontSize={"sm"}
+                fontWeight="bold"
+                colorScheme="purple"
+              >
+                *Work in progress
+              </Code>
             </Card>
           ))}
         </SimpleGrid>
