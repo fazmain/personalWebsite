@@ -99,7 +99,7 @@ export default function ProjectContent() {
                       rightIcon={<ArrowForwardIcon />}
                       isDisabled
                     >
-                      building in progress
+                      in progress
                     </Button>
                   )}
                 </RouterLink>

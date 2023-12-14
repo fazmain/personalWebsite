@@ -213,6 +213,7 @@ const FeastFinder = () => {
             </ListItem>
           </List>
         </Text>
+        
       </Box>
       <Footer />
     </>
