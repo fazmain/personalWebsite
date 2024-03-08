@@ -29,7 +29,7 @@ const Hero = () => {
       </Box>
       <Flex direction="column" h="full">
         <Heading size="xl" py={3}>
-          // aspiring product manager making stuff*
+          // aspiring product guy making stuff*
         </Heading>
         <Spacer />
         <Box align="right">

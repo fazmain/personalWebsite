@@ -21,7 +21,6 @@ import FeastFinder from "../assets/feastfinder.png";
 import Shiree from "../assets/shiree.png";
 
 import { Link as RouterLink } from "react-router-dom";
-import { isDisabled } from "@testing-library/user-event/dist/utils";
 
 const projects = [
   {
